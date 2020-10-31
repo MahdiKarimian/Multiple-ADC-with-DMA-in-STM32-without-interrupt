@@ -27,3 +27,6 @@ Always you can add these value for measuring the ADC value.
 # Limitation
 * These method works for reading voltage or temperature or any sensor with limited rate. It is very accurate because of averaging the data.
 * ADC trigger should be controlled, It may saturate system bus.
+
+# Test
+This project test on "Nucleo board F746ZG". ADC_DMA.ioc file related to this implementation. 3 channels ADC with 8 sample average on each channel set on the board.
